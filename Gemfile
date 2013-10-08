@@ -15,9 +15,7 @@ gem 'jquery-rails'
 gem "bootstrap-sass", "~> 3.0.0", git: "git://github.com/thomas-mcdonald/bootstrap-sass.git", ref: "3"
 gem "compass-rails", "~> 2.0.alpha.0"
 
-gem 'heroku'
-
-
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
