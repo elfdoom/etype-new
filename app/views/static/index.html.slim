@@ -1,16 +1,23 @@
-p hello world!
+section#hero
+  .container
+    .row
+      .col-lg-12.text-center
+        = image_tag "e-mark-80.png"
+        h1 
+          ' Elvis Dao
+          span <i>/</i> UI Designer
 
-a.btn.btn-default href="" asd
+section#work
+  .container
+    = render partial: "static/preview"
 
-.container
-  .row
-    .col-md-12
-      h1 Hello World
-      p
-        ' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in euismod nulla. Nulla mollis mollis malesuada. Mauris sit amet enim tempus, dignissim tellus ac, placerat erat. 
-      h2 Goodbye World 
-      p
-        ' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in euismod nulla. Nulla mollis mollis malesuada. Mauris sit amet enim tempus, dignissim tellus ac, placerat erat. 
-      
+section#about-me
+  .container
+    .row
+      .col-lg-3
+        img.thumbnail src="images/me.jpg" width="220"
+      .col-lg-9
+        h2 About Me
+        p I am a UI designer that firmly believes in a design driven product, user-centric interfaces, the agile process, and mobile first design. In the last four years as a designer/coder, I’ve culminated a skill set of solid artistic and technical principles and an even greater love for good design.
 
-      button class="btn" Get Started!
+        a class="btn btn-lg btn-outline" href="mailto: elfdao@gmail.com" Contact me

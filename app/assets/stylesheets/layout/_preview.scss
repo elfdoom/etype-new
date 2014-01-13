@@ -1,0 +1,26 @@
+#work {
+  background-color: #fafafa;
+}
+#work-grid{
+  .work-preview {
+    @include border-bottom-radius(4px);
+    background-color: #f7f7f7; 
+    padding: 0;
+    overflow: hidden;
+
+    h5 {
+      margin: 0;
+      padding: 10px 15px;
+    }
+
+    .head {
+      @include border-top-radius(4px);
+      background-color: #555;
+      color: #fff;
+    }
+    .body img {
+      width: 100%;
+      height: auto;
+    }
+  } 
+}

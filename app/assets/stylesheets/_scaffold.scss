@@ -1,0 +1,39 @@
+.navbar{
+  @include border-radius(0px);
+  margin-bottom: 0;
+  border:0;
+
+  li > a {
+    color: #ccc !important;
+
+    &:hover {
+      color: #fff !important;
+    }
+  }
+  .navbar-toggle {
+    background-color: transparent !important;
+
+    .icon-bar{
+      background-color: #fff !important;
+    }
+  }
+  .navbar-collapse{
+    border-color: transparent;
+  }
+}
+
+footer {
+  background-color: #333;
+  color: #ccc;
+  padding: 10px 0;
+}
+
+.btn.btn-outline {
+  color: #0cc0c0;
+  border: 2px solid #0cc0c0;
+
+  &:active {
+    background-color: #0cc0c0;
+    color: #fff;
+  }
+}

@@ -1,0 +1,38 @@
+section{
+	padding: 40px 0;
+}
+
+#hero{
+	background: #0CC0C0 url(/images/bg.png) no-repeat;
+	color: #fff;
+}
+
+#hero-vh {
+	background-color: #f89853;
+}
+
+#vh-screens {
+	text-align: center;
+
+	img {
+		margin: 20px auto 0;
+	}
+}
+
+h1 {
+	color: #e7f9f9;
+	span {
+		color: #b7ecec;
+		font-weight: normal;
+	}
+	i {
+		color: #3dcdcd;
+	}
+}
+
+#about-me {
+	h2 {color: #0cc0c0;}
+	.btn {
+		margin: 15px 0;
+	}
+}
