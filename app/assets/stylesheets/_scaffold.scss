@@ -37,3 +37,13 @@ footer {
     color: #fff;
   }
 }
+.btn.btn-outline-white {
+  @include opacity(.5);
+  color: #fff;
+  border: 2px solid #fff;
+  margin-top: 15px;
+
+  &:hover {
+    @include opacity(1);
+  }
+}

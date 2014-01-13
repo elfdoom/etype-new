@@ -6,6 +6,7 @@ EtypeNew::Application.routes.draw do
   root 'static#index' 
 
 
-  get '/vh' => 'static#vh'
+  get '/viralheat' => 'static#viralheat'
+  get '/moostaches' => 'static#moostaches'
 
 end

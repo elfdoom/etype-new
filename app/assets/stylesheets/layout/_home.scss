@@ -6,12 +6,18 @@ section{
 	background: #0CC0C0 url(/images/bg.png) no-repeat;
 	color: #fff;
 }
+.hero h1{
+	margin-top: 0;
+}
 
 #hero-vh {
 	background-color: #f89853;
 }
+#hero-mo {
+	background-color: #ab4b8b;
+}
 
-#vh-screens {
+.ex-screens {
 	text-align: center;
 
 	img {
@@ -28,6 +34,7 @@ h1 {
 	i {
 		color: #3dcdcd;
 	}
+	&.white {color: #fff;}
 }
 
 #about-me {

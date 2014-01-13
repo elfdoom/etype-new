@@ -1,10 +1,12 @@
 ul#work-grid.row
   li.col-lg-3.col-md-4.col-sm-6
-    .work-preview
-      .head
-        h5 Viralheat
-      .body
-        = image_tag "/images/thumbs/vh.png"
+    = link_to viralheat_path do
+      .work-preview
+        .head
+          h5 Viralheat
+        .body
+          = image_tag "/images/thumbs/vh.png"
+    end
   li.col-lg-3.col-md-4.col-sm-6
     .work-preview
       .head
@@ -12,11 +14,13 @@ ul#work-grid.row
       .body
         = image_tag "/images/thumbs/sv.png"
   li.col-lg-3.col-md-4.col-sm-6
-    .work-preview
-      .head
-        h5 Moostaches
-      .body
-        = image_tag "/images/thumbs/moose.png"
+    = link_to moostaches_path do
+      .work-preview
+        .head
+          h5 Moostaches
+        .body
+          = image_tag "/images/thumbs/moose.png"
+    end
   li.col-lg-3.col-md-4.col-sm-6
     .work-preview
       .head
